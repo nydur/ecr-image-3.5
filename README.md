@@ -1,3 +1,5 @@
+# 3.5 Step-by-step how to create an image to be deployed to AWS ECR
+
 ## Step 1
 
 `aws ecr get-login-password --region ap-southeast-1`
