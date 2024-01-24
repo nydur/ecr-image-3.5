@@ -17,11 +17,11 @@ This will confirm if login have been successful
 
 `docker images`
 
-Lists out the available images on the machine to re-tag in a lter step 
+Lists out the available images on the machine to re-tag in a later step 
 
 ## Step 4
 
-Login into the AWS console to create a private repository on ECR
+Login into the AWS console to create a private repository with the ECR service
 
 ## Step 5
 
@@ -36,4 +36,4 @@ Login into the AWS console to create a private repository on ECR
 
 ## Final step 
 
-If the push is successful, an image of the file will be in the created repository. Refresh the ECR console to confirm.
+If the push is successful, an image of the file will be in the uploaded into the repository.\ Refresh the ECR console to confirm.
