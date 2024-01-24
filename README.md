@@ -8,7 +8,7 @@ This will generate a long string of characters for the password
 
 ## Step 2
 
-`aws ecr get-login-password --region ap-southeast-1 |`
+`aws ecr get-login-password --region ap-southeast-1 |\`
 `docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.ap-southeast-1.amazonaws.com`
 
 This will confirm if login have been successful
